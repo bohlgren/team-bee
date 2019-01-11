@@ -1,2 +1,0 @@
-# team-bee
-hackathon
