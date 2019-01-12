@@ -26,7 +26,7 @@ component {
             .params( 'request-pull origin/master https://github.com/bohlgren/team-bee #branchName#')
             .run(returnOutput=true);
 
-        print.greenLine( "Differences:" ).toConsole();
+        print.greenLine( "Differences compared to master:" ).toConsole();
         print.blueLine( gitChanges ).toConsole();
         return;
     }
